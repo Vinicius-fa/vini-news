@@ -1,0 +1,122 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GERAL */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* CABEÇALHO */
+header {
+  background-color: #004d2e; /* verde escuro para dar vibe germânica/tradicional */
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+header .data {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: #cfcfcf;
+}
+
+/* MENU */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+nav ul li {
+  margin: 5px 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #f0d23b; /* amarelo para contraste */
+}
+
+/* BANNER */
+#banner {
+  position: relative;
+  text-align: center;
+  margin: 2rem 0;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.banner-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* MAIN e SEÇÕES */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+section {
+  margin-bottom: 2.5rem;
+}
+section h2 {
+  border-bottom: 3px solid #f0d23b; /* amarelo tradicional */
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  color: #004d2e;
+}
+
+/* ARTIGOS e IMAGENS */
+.news-item, .report-item, .review-item {
+  margin-bottom: 1.8rem;
+}
+.news-item img, .report-item img, .review-item img, .propaganda img {
+  width: 100%;
+  height: auto;
+  margin-top: 0.7rem;
+  border-radius: 5px;
+}
+
+/* PROPAGANDAS */
+.propaganda {
+  background: #eefaf4;
+  padding: 1rem;
+  border-left: 5px solid #004d2e;
+  margin-bottom: 1.5rem;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #004d2e;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
