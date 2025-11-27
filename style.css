@@ -104,6 +104,14 @@ section h2 {
   border-radius: 5px;
 }
 
+.cronica-image {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+
 /* PROPAGANDAS */
 .propaganda {
   background: #eefaf4;
